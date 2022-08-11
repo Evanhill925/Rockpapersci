@@ -1,0 +1,46 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn-group {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+/* button {
+ background-color: honeydew;  
+ background-size: cover;
+ font-size: large;
+width: 35px;
+height: 35px;
+  } */
+
+#Result {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 100px;
+    color:burlywood;
+} 
+img {
+    float: left;
+    width:  240px;
+    height: 240px;
+    object-fit: cover;
+}
+
+body {
+    background-image:url("https://www.iciw.com/img/bilder/artiklar/zoom/12021-253_9.jpg?m=1649755354&w=900&h=1125&constrain=1");
+}
+#cWin, #pWin {
+font-size: 35px;
+color:burlywood;
+}
+#pS, #cS {
+    font-size: 35px;
+    color:burlywood;
+}
